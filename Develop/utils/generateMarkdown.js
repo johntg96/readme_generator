@@ -3,6 +3,9 @@
 function renderLicenseBadge(license) {
   switch (license) {
 
+    case 'none':
+      return '';
+
     case 'APACHE 2.0':
       return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
 
@@ -46,12 +49,16 @@ function renderLicenseBadge(license) {
       return `[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)`;
 
     default:
-      console.log(`License badge error`);
+      return '';
   }
 }
 
 function renderLicenseInfo(license) {
   switch (license) {
+
+    case 'none':
+      return '';
+
     case 'APACHE 2.0':
       return `Apache License 2.0: A permissive license that allows users to use, modify, and distribute the software under certain conditions. It requires users to retain the original copyright notice and include disclaimers.`;
 
@@ -95,7 +102,7 @@ function renderLicenseInfo(license) {
       return `Perl Artistic License 2.0: A flexible license for Perl modules that allows users to modify and distribute the software under certain conditions.`;
 
     default:
-      console.log(`License badge error`);
+      return '';
   }
 }
 

@@ -1,15 +1,18 @@
-# readme_generator
+# My Project
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
-A utility for creating README.md files from the terminal via node.js
+This is my project's description
 
 ## Installation
 npm i
 
 ## Usage
 node index.js
+
+## Contributions
+no
 
 ## Tests
 npm run test
