@@ -1,7 +1,5 @@
 # readme_generator
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
 ## Description
 A utility for creating README.md files from the terminal via node.js
 
@@ -16,8 +14,8 @@ npm run test
 
 ## Questions
 Contact me:
-johntg96
-splendidonkey@gmail.com
+[johntg96 | GitHub](https://github.com/johntg96)  
+[johntg96@protonmail.com](mailto:johntg96@protonmail.com.com)  
 
 ## License
 GNU General Public License (GPL) version 3: A strong copyleft license that ensures the software and its derivatives remain open source and freely available to the public.

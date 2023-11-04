@@ -1,21 +1,21 @@
-# My Project
+# ThinkSync
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 ## Description
-This is my project's description
+ThinkSync is a tool to help come to a decision between a variety of different ideas (from 2 to 16).
 
 ## Installation
 npm i
 
 ## Usage
-node index.js
+npm run start
 
 ## Contributions
-no
+yes
 
 ## Tests
-npm run test
+n/a
 
 ## Questions
 Contact me:
@@ -23,4 +23,4 @@ johntg96
 splendidonkey@gmail.com
 
 ## License
-GNU General Public License (GPL) version 3: A strong copyleft license that ensures the software and its derivatives remain open source and freely available to the public.
+
